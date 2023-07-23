@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Serif:wght@700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+.background{
+    background-color: #3c6382;
+}
+.login-section{
+    border-radius: 12px;
+    text-align: center;
+   background-color:#c7ecee61;
+    padding: 60px;
+    backdrop-filter: blur(20px);
+    border: 2px solid #ced6e0;
+}
+.login-section h3{
+    color: #2c2c54;
+
+}
+.login-section h3 span{
+    color: #1dd1a1;
+    text-transform: capitalize;
+}
+.flex-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/uuu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.login-section h3{
+    font-size: 40px;
+    padding: 12px 0 40px 0;
+   
+}
+
+.login-section button{
+    
+    
+    font-weight: 600;
+    background-color: #314057;
+    transition: all 0.4s ease-in-out;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.login-section button:hover{
+    background-color: #636e72;
+    color: white;
+    
+}
+
+
+.icon{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #314057;
+    margin:  30px 0;
+}
+
+.icon input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.564);
+    font-size: 700;
+}
+
+.icon label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #314057;
+    font-weight: 700;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+
+
+.icon input:focus~label,
+.icon input:valid~label{
+
+    top: -5px;
+}
+  
+
+.icon .input-logo{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    line-height: 58px;
+}
+
+.cakbox{
+    justify-content: space-between;
+    display: flex;
+    margin: -14px 0 14px;
+}
+.cakbox label{
+    margin-right: 30px;
+}
+.cakbox a{
+    text-decoration: none;
+    color:black;
+}
+.cakbox a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* loging end */
+
+
+
+.section-2{
+    
+    background-image: url(../img/oop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+    padding: 10px 20px;
+    
+}
+.upwork{}
+.upwork h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 25px;
+    font-weight: bolder;
+    color:#1368c3;
+    font-family: 'PT Serif', serif;
+}
+.upwork h1 span{
+    color:#833471;
+}
+
+.colam{
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 14px 110px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.colam h4{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Fjalla One', sans-serif;
+    color:#314057;
+}
+.colam span{ 
+    font-size: 38px;
+    font-weight: bold;
+}
+.colam h3{
+    padding: 14px 12px;
+    font-size: 38px;
+}
+
+.colam-2{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.409);
+    justify-content: space-between;
+    padding: 60px;
+    padding: 14px 110px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.colam-2 span{
+    font-size: 38px;
+    font-weight: bold;
+}
+.colam-2 h4{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Fjalla One', sans-serif;
+    color: #314057;
+}
+.colam-2 h3{
+    padding: 14px 12px;
+    font-size: 38px;
+}
+.colam-3{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.418);
+    justify-content: space-between;
+    padding: 14px 110px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.colam-3 h3{
+    padding: 14px 12px;
+    font-size: 38px;
+}
+.colam-3 span{
+    font-size: 38px;
+    font-weight: bold;
+}
+.colam-3 h4{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Fjalla One', sans-serif;
+    color: #314057;
+}
+.flex-ammount{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 38px 0;
+}
+
+.withdraw-deposit{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.m-deposit{
+    background-color: #3c638279;
+    display: inline-block;
+    padding: 40px 55px;
+    margin-top: 24px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    
+}
+.m-deposit input{
+    padding: 10px 22px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.643);
+}
+.m-deposit button{
+    padding: 12px 26px;
+    border-radius: 14px;
+    background-color: #74b9ff;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.m-deposit button:hover{
+    background-color: #2ecc71;
+}
+.m-withdraw {
+    margin-right: 20px;
+    background-color: #3c63827e;
+    display: inline-block;
+    padding: 40px 55px;
+    margin-top: 24px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.m-withdraw input{
+    padding: 12px 22px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.643);
+    
+}
+.m-withdraw button{
+    padding: 12px 26px;
+    border-radius: 14px;
+    background-color: #a29bfea8;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+     
+}
+.m-withdraw button:hover{
+    background-color: #2ecc71;
+}
+.m-withdraw h3{
+   padding: 0 0 30px 0;
+   color: white;
+   text-transform: capitalize;
+   font-family: 'Fjalla One', sans-serif;
+   color: #ced6e0;
+    
+}
+.m-deposit h3{
+    padding: 0 0 30px 0;
+   color: white;
+   text-transform: capitalize;
+   font-family: 'Fjalla One', sans-serif;
+   color: #ced6e0;
+}
+
+.icon-bank i{
+    padding: 20px;
+    font-size: 40px;
+    color:#314057;
+}
